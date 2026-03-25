@@ -51,12 +51,19 @@ public class Semana {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+
         System.out.println("Digite seu nome: ");
+
         String nomePessoa = input.nextLine();
+
         System.out.println("Qual o dia da semana é hoje? (Digite o número correspondente)");
+
         System.out.println("1 - segunda-feira, 2 - terça-feira, 3 - quarta-feira, 4 - quinta-feira, 5 - sexta-feira, 6 - sábado, 7 - domingo");
+
         int diaSemana = input.nextInt();
+
         Semana semana = new Semana(nomePessoa, diaSemana);
+
         semana.exibirMensagem();
     }
 

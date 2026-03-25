@@ -14,8 +14,8 @@ public class Contagem {
        Scanner ler = new Scanner(System.in);
        int numero = ler.nextInt();
 
+       System.out.println("Contagem: ");
        for (int i = 1; i <= numero; i++){
-           System.out.println("Contagem: ");
            System.out.println(i);
        }
    }
