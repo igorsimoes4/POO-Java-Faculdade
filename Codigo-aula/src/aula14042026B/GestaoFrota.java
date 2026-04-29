@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class GestaoFrota {
-    public static void main(String[] args) {
+   public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         ArrayList<Veiculo> frota = new ArrayList<>();
 
@@ -18,7 +18,6 @@ public class GestaoFrota {
             System.out.println("4. Sair");
             System.out.print("Opcao: ");
             opcao = sc.nextInt();
-            opcao.nextLine();
 
             switch (opcao) {
                 case 1:
